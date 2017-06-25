@@ -21,8 +21,10 @@ Then add **hubot-sensu** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> hubot sensu get silenced
+hubot>> The following db servers are silenced:
+client:awasome.server.com
+...
 ```
 
 ## NPM Module
